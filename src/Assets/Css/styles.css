@@ -1,0 +1,380 @@
+.App {
+  font-family: sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+.label {
+  text-align: left;
+  margin-top: 10px;
+}
+.labelInputType {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 120px !important;
+}
+.labelHeader {
+  margin-top: 10px;
+  position: relative;
+  margin-bottom: 20px;
+  right: 285px;
+  color: #c3dbf5;
+  font-size: 20px;
+  position: relative;
+}
+.labelHeaderShow {
+  margin-top: 30px !important;
+  left: 15px;
+  color: #c3dbf5;
+  font-size: 20px;
+  position: relative;
+  position: relative;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.editButton {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  border: 2px solid #d5d2cb;
+  color: #9c9076;
+  background-color: white;
+  padding: 0px 20px 0px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  margin-top: 20px;
+  width: fit-content;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.input {
+  height: fit-content !important;
+  position: relative;
+  font-size: 15px;
+  font-weight: 600px;
+  min-height: 34px !important;
+  width: 750px;
+  -webkit-appearance: button !important;
+  margin-top: 10px;
+  float: left;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+}
+.inputField {
+  -webkit-appearance: button !important;
+  margin-top: 10px;
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  padding: 5px 5px;
+}
+.inputRadio {
+  padding: 5px 5px;
+  -webkit-appearance: button !important;
+  margin-top: 10px;
+  float: left;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+}
+.plusButton {
+  padding: 1px 5px 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: darkgray !important;
+  margin-bottom: 10px;
+}
+.minusButton {
+  padding: 1px 8px 6px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: darkgray !important;
+  margin-bottom: 10px;
+}
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.btnAddField {
+  border: 2px solid #d5d2cb;
+  color: #9c9076;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  margin-top: 20px;
+  width: fit-content;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.btnAddField:hover {
+  background-color: #d5d2cb;
+  color: aliceblue;
+}
+.btnDeleteField {
+  border: 2px solid #d78a00;
+  color: #d78a00;
+  background-color: white;
+  padding: 1px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
+  height: 36px;
+  margin-top: 22px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.btnDeleteField:hover {
+  background-color: #d78a00;
+  color: aliceblue;
+}
+.submit {
+  border-radius: 6px;
+  width: 150px !important;
+  align-items: flex-start;
+  background-color: #035762;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  position: relative;
+  font-weight: 400;
+  margin-top: 0px !important;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  text-align: center;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 75.7969px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  left: 250px !important;
+}
+.editIntg {
+  border-radius: 6px;
+  width: 150px !important;
+  align-items: flex-start;
+  background-color: #035762;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  position: relative;
+  font-weight: 400;
+  margin-top: 0px !important;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  text-align: center;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  width: 75.7969px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.addField {
+  align-items: flex-start;
+  background-color: rgb(92, 171, 64);
+  background-image: linear-gradient(
+    rgb(184, 450, 155),
+    rgb(140, 324, 115) 60%,
+    rgb(92, 171, 65)
+  );
+  border-bottom-color: rgb(92, 171, 64);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(92, 171, 64);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(92, 171, 64);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(92, 171, 64);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-stretch: 100%;
+  font-weight: 400;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  text-align: center;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: rgb(92, 171, 64) 0px 1px 0px;
+  text-size-adjust: 100%;
+  user-select: none;
+  vertical-align: middle;
+  width: 75.7969px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin-top: 60px;
+}
+.quit {
+  width: 150px !important;
+  align-items: flex-start;
+  background-color: gray;
+  background-color: gray;
+  background-image: linear-gradient(
+    rgb(87, 85, 85),
+    rgb(87, 85, 85) 60%,
+    rgb(87, 85, 85)
+  );
+  border-bottom-color: gray;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(61, 60, 60);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(61, 60, 60);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(61, 60, 60);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  margin-bottom: 40px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  text-align: center;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px;
+  text-size-adjust: 100%;
+  width: 75.7969px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.coloumn {
+  display: flex !important;
+  margin-bottom: 10px;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  border: 1px solid darkgrey;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(191, 191, 191) 0px 0px 1px 0px inset;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  height: fit-content;
+  line-height: 22.652px;
+  margin-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  width: fit-content;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.MainContent {
+  margin-top: 30px;
+  background-color: #fbefc9;
+  display: flow-root;
+  height: 1100px;
+}
+.coloumnForAll {
+  min-width: 343px;
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 0.5px solid darkgrey;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(191, 191, 191) 0px 0px 1px 0px inset;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  height: fit-content;
+  line-height: 22.652px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  width: fit-content;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

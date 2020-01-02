@@ -1,0 +1,82 @@
+.Admin-Background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: #1c88ef;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Admin-Modal {
+  right: 650px;
+  position: absolute;
+  top: 200px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 40px;
+  height: 500px;
+  background-color: white;
+}
+.Admin-h4 {
+  display: flex;
+  color: black;
+  font-weight: 600;
+}
+.Admin-p {
+  display: flex;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: -webkit-center;
+  color: black;
+  font-family: monospace;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  -webkit-appearance: button !important;
+}
+.Admin-Button {
+  width: 500px;
+  margin-top: 50px;
+  position: relative;
+  height: 46px;
+  text-align: center !important;
+  line-height: 40px;
+  background-color: #167bff;
+  font-size: 17px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+.Admin-Input {
+  padding: 5px 5px;
+  -webkit-appearance: button !important;
+  height: 36px;
+  position: relative;
+  font-size: 15px;
+  display: flex;
+  width: 500px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.Admin-Container {
+  left: 570px;
+  height: fit-content;
+  margin-top: 200px;
+  width: 480px;
+}
+.Admin-InputContent {
+  top: 50px;
+  position: relative;
+  display: grid;
+}
+.goSignup {
+  margin-top: 20px;
+  cursor: pointer;
+}
